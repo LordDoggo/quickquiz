@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Privacy Policy Redirect</title>
+   <script>
+  const lang = navigator.language || navigator.userLanguage;
+  if (lang.startsWith('de')) {
+    window.location.href = 'de/';
+  } else {
+    window.location.href = 'en/';
+  }
+</script>
+
+  </head>
+  <body>
+    <p>Redirecting to your language...</p>
+  </body>
+</html>
